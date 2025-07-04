@@ -14,6 +14,8 @@ export const Colors = {
     icon: '#687076',
     tabIconDefault: '#687076',
     tabIconSelected: tintColorLight,
+    buttonPrimary: '#FF3B30', // Onboarding butonu için eklendi
+    accent: '#007AFF',       // Onboarding checkbox ve tıklanabilir metin için eklendi
   },
   dark: {
     text: '#ECEDEE',
@@ -22,5 +24,7 @@ export const Colors = {
     icon: '#9BA1A6',
     tabIconDefault: '#9BA1A6',
     tabIconSelected: tintColorDark,
+    buttonPrimary: '#FF3B30', // Dark mode için de aynı kalabilir veya değiştirilebilir
+    accent: '#007AFF',       // Dark mode için de aynı kalabilir veya değiştirilebilir
   },
 };
